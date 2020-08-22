@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Theater theater = new Theater("Olympian", 8, 12);
+        theater.getSeats();
+
     }
 }
